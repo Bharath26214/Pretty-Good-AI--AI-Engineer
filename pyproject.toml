@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "pretty-good-ai-engineer"
+version = "0.1.0"
+description = "Voice bot for the Pretty Good AI engineering challenge"
+authors = []
+packages = [{ include = "voice_bot" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.2.2"
+ngrok = "^1.7.0"
+fastapi = "^0.137.2"
+uvicorn = { version = "^0.49.0", extras = ["standard"] }
+openai = "^2.43.0"
+websockets = "^15.0"
+telnyx = "^4.157.0"
+httpx = "^0.28.0"
+
+[tool.poetry.scripts]
+voice-bot = "main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
