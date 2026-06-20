@@ -1,0 +1,103 @@
+{
+  "scenario_id": "04",
+  "scenario_name": "Medication Refill Clear",
+  "call_id": "v3:UwdisT7CYHjnk3Q9bHSM4MM5xcRgeUyAehTB-Uyj6BX2E0cdm-Je5A",
+  "started_at": "2026-06-20T18:59:30.705272+00:00",
+  "entries": [
+    {
+      "timestamp": "2026-06-20T18:59:45.236319+00:00",
+      "speaker": "Agent",
+      "text": "All may be recorded for quality and training purposes. Para espa\u00f1ol, oprima el dos. Thanks for calling Pivot Point Orthopedics, part of PrettyGoodAI. Am I speaking with Marcus?"
+    },
+    {
+      "timestamp": "2026-06-20T18:59:50.437248+00:00",
+      "speaker": "Patient",
+      "text": "Yes, this is Marcus Thompson. I'm calling to request a refill for my Lisinopril 10 milligrams, taken once daily, for high blood pressure. I use the Lakeside Pharmacy on 5th Street in town. How long will the refill take, and do I need an appointment or can it be called in directly?"
+    },
+    {
+      "timestamp": "2026-06-20T19:00:11.475356+00:00",
+      "speaker": "Agent",
+      "text": "Please share your date of birth. Please share your date of birth."
+    },
+    {
+      "timestamp": "2026-06-20T19:00:14.729227+00:00",
+      "speaker": "Patient",
+      "text": "Sure, my date of birth is August 22, 1990."
+    },
+    {
+      "timestamp": "2026-06-20T19:00:26.720334+00:00",
+      "speaker": "Agent",
+      "text": "Let me check that for you. How can I help today?"
+    },
+    {
+      "timestamp": "2026-06-20T19:00:31.452698+00:00",
+      "speaker": "Patient",
+      "text": "I'm looking to get a refill on my Lisinopril 10 milligrams once daily. The pharmacy is Lakeside Pharmacy on 5th Street. Will I need to come in for an appointment, or can it be called in directly, and how long will it take?"
+    },
+    {
+      "timestamp": "2026-06-20T19:00:51.055565+00:00",
+      "speaker": "Agent",
+      "text": "I need one quick detail first: How many days of lisinopril do you have left?"
+    },
+    {
+      "timestamp": "2026-06-20T19:00:54.676837+00:00",
+      "speaker": "Patient",
+      "text": "I\u2019ve got about three days left. That\u2019s why I\u2019m checking on how quickly we can get this refill in."
+    },
+    {
+      "timestamp": "2026-06-20T19:01:07.909588+00:00",
+      "speaker": "Agent",
+      "text": "I have three days left. What callback number should staff use if they need to reach you?"
+    },
+    {
+      "timestamp": "2026-06-20T19:01:11.418159+00:00",
+      "speaker": "Patient",
+      "text": "You can reach me at +1 860-850-9755."
+    },
+    {
+      "timestamp": "2026-06-20T19:01:33.075054+00:00",
+      "speaker": "Agent",
+      "text": "Let me check the refill details. Sure, what pharmacy would you like us to use for the medication request? Please share the pharmacy name and if you have it, the address, phone number, or fax number."
+    },
+    {
+      "timestamp": "2026-06-20T19:01:36.795954+00:00",
+      "speaker": "Patient",
+      "text": "The pharmacy is Lakeside Pharmacy on 5th Street. I don't have the phone or fax number handy, but it\u2019s the main one on 5th Street in town."
+    },
+    {
+      "timestamp": "2026-06-20T19:01:55.630157+00:00",
+      "speaker": "Agent",
+      "text": "I need one more detail to make sure we have the right branch. What city and state is Lakeside Pharmacy in, or the zip code?"
+    },
+    {
+      "timestamp": "2026-06-20T19:01:58.580959+00:00",
+      "speaker": "Patient",
+      "text": "It\u2019s in Riverview, Ohio, zip code 44123."
+    },
+    {
+      "timestamp": "2026-06-20T19:02:23.300262+00:00",
+      "speaker": "Agent",
+      "text": "Your refill request has been submitted to the care team for review. It has not been sent to the pharmacy yet. If you are running out sooner or if your symptoms are changing, you can call back. Do you need any other medications refilled?"
+    },
+    {
+      "timestamp": "2026-06-20T19:02:26.776999+00:00",
+      "speaker": "Patient",
+      "text": "No, that\u2019s the only medication I need refilled right now. Could you let me know how long it typically takes to process?"
+    },
+    {
+      "timestamp": "2026-06-20T19:02:52.061041+00:00",
+      "speaker": "Agent",
+      "text": "Your refill request for lisinopril has been sent to the care team for review. They will handle it and it is not called in directly to the pharmacy from here. You do not need an appointment for the refill request itself. If you want, I can also help with anything else today."
+    },
+    {
+      "timestamp": "2026-06-20T19:02:54.610319+00:00",
+      "speaker": "Patient",
+      "text": "Thanks for the update. That\u2019s all I needed for now. I appreciate your help."
+    },
+    {
+      "timestamp": "2026-06-20T19:03:04.714189+00:00",
+      "speaker": "Agent",
+      "text": "You're welcome. Take care."
+    }
+  ]
+}

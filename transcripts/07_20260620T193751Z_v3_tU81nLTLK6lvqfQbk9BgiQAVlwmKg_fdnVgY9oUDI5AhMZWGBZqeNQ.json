@@ -1,0 +1,53 @@
+{
+  "scenario_id": "07",
+  "scenario_name": "Deep Insurance Questions",
+  "call_id": "v3:tU81nLTLK6lvqfQbk9BgiQAVlwmKg_fdnVgY9oUDI5AhMZWGBZqeNQ",
+  "started_at": "2026-06-20T19:37:51.535226+00:00",
+  "entries": [
+    {
+      "timestamp": "2026-06-20T19:38:06.044497+00:00",
+      "speaker": "Agent",
+      "text": "All may be recorded for quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Marcus?"
+    },
+    {
+      "timestamp": "2026-06-20T19:38:08.510719+00:00",
+      "speaker": "Patient",
+      "text": "Yes, this is Marcus. I need to ask a few questions before booking."
+    },
+    {
+      "timestamp": "2026-06-20T19:38:17.899845+00:00",
+      "speaker": "Agent",
+      "text": "Please tell me your date of birth."
+    },
+    {
+      "timestamp": "2026-06-20T19:38:20.605287+00:00",
+      "speaker": "Patient",
+      "text": "Sure. It\u2019s August 22, 1990. Now, do you accept COBRA insurance?"
+    },
+    {
+      "timestamp": "2026-06-20T19:38:35.679507+00:00",
+      "speaker": "Agent",
+      "text": "I'm checking your chart now. Thanks, Marcus. How can I help you today?"
+    },
+    {
+      "timestamp": "2026-06-20T19:38:38.667498+00:00",
+      "speaker": "Patient",
+      "text": "I need to know if you accept COBRA insurance. Can you confirm that for me specifically?"
+    },
+    {
+      "timestamp": "2026-06-20T19:39:01.718878+00:00",
+      "speaker": "Agent",
+      "text": "Let me check that for you. I do not see any insurance on file right now. For COBRA, we would need the plan details to confirm whether it is accepted. If you want, I can help with that next."
+    },
+    {
+      "timestamp": "2026-06-20T19:39:05.450405+00:00",
+      "speaker": "Patient",
+      "text": "I understand, but generally, do you accept COBRA plans or not? I really need a clear yes or no on that."
+    },
+    {
+      "timestamp": "2026-06-20T19:39:33.619125+00:00",
+      "speaker": "Agent",
+      "text": "We checked that for you. I'm going to connect you to our clinic support team. Please stay on the line. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye."
+    }
+  ]
+}

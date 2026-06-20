@@ -1,0 +1,128 @@
+{
+  "scenario_id": "11",
+  "scenario_name": "Wrong Date Day Mismatch",
+  "call_id": "v3:0CxkglX8UoNsxqNtHW1mwm0ZLww4pjkvgHLsqJJgdgcvAG8bldrGdQ",
+  "started_at": "2026-06-20T19:54:03.656537+00:00",
+  "entries": [
+    {
+      "timestamp": "2026-06-20T19:54:18.558879+00:00",
+      "speaker": "Agent",
+      "text": "Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Marcus?"
+    },
+    {
+      "timestamp": "2026-06-20T19:54:20.191573+00:00",
+      "speaker": "Patient",
+      "text": "Hi there, yes, this is Marcus. I'd like to schedule an appointment."
+    },
+    {
+      "timestamp": "2026-06-20T19:54:31.794279+00:00",
+      "speaker": "Agent",
+      "text": "Please share your date of birth. Please share your date of birth."
+    },
+    {
+      "timestamp": "2026-06-20T19:54:34.050813+00:00",
+      "speaker": "Patient",
+      "text": "Sure, it's August 22, 1990."
+    },
+    {
+      "timestamp": "2026-06-20T19:54:44.509698+00:00",
+      "speaker": "Agent",
+      "text": "Thanks, Marcus. How can I help today?"
+    },
+    {
+      "timestamp": "2026-06-20T19:54:47.130829+00:00",
+      "speaker": "Patient",
+      "text": "I\u2019d like to book an appointment for Tuesday, June 21st, if that\u2019s available."
+    },
+    {
+      "timestamp": "2026-06-20T19:54:56.842780+00:00",
+      "speaker": "Agent",
+      "text": "One moment."
+    },
+    {
+      "timestamp": "2026-06-20T19:54:59.396916+00:00",
+      "speaker": "Patient",
+      "text": "Sure, no problem. I'll wait."
+    },
+    {
+      "timestamp": "2026-06-20T19:55:16.744137+00:00",
+      "speaker": "Agent",
+      "text": "I'm not seeing anything open that week. We can try another date or I can look for any provider. What would you prefer?"
+    },
+    {
+      "timestamp": "2026-06-20T19:55:19.645224+00:00",
+      "speaker": "Patient",
+      "text": "Hmm, I\u2019m pretty sure I saw Tuesday, June 21st open. Are you sure there\u2019s nothing on that day?"
+    },
+    {
+      "timestamp": "2026-06-20T19:55:43.922940+00:00",
+      "speaker": "Agent",
+      "text": "I checked again, and I'm still not seeing any openings on that date. If you want, I could look in another day or check any provider."
+    },
+    {
+      "timestamp": "2026-06-20T19:55:45.925857+00:00",
+      "speaker": "Patient",
+      "text": "Okay, let\u2019s go with the next available Tuesday, maybe June 23rd. Does that work?"
+    },
+    {
+      "timestamp": "2026-06-20T19:56:03.948536+00:00",
+      "speaker": "Agent",
+      "text": "I'm not seeing anything open that Tuesday either. I can check another day or try any provider if you want."
+    },
+    {
+      "timestamp": "2026-06-20T19:56:06.571503+00:00",
+      "speaker": "Patient",
+      "text": "All right, how about we check for any available slots on Tuesday that week, June 23rd, with any provider?"
+    },
+    {
+      "timestamp": "2026-06-20T19:56:32.697890+00:00",
+      "speaker": "Agent",
+      "text": "We have openings on Tuesday, June 23rd with any provider. The earliest one is at 9 a.m. with Dr. Zygnew Lukowski. Another option is 10 a.m. with Dr. Kelly Noble. Would you like me to book one of those?"
+    },
+    {
+      "timestamp": "2026-06-20T19:56:35.221905+00:00",
+      "speaker": "Patient",
+      "text": "Let\u2019s go with the 9 a.m. with Dr. Zygmunt Lukosky. That works for me."
+    },
+    {
+      "timestamp": "2026-06-20T19:57:00.249378+00:00",
+      "speaker": "Agent",
+      "text": "Your appointment is booked for Tuesday, June 23rd at 9 a.m. Please bring your government-issued photo ID and insurance card, plus a list of current medications and any imaging discs if you have them."
+    },
+    {
+      "timestamp": "2026-06-20T19:57:02.404967+00:00",
+      "speaker": "Patient",
+      "text": "Got it, I\u2019ll make sure to bring those. Thanks for your help!"
+    },
+    {
+      "timestamp": "2026-06-20T19:57:13.957167+00:00",
+      "speaker": "Agent",
+      "text": "You're all set. If you need anything else, just call back."
+    },
+    {
+      "timestamp": "2026-06-20T19:57:16.385470+00:00",
+      "speaker": "Patient",
+      "text": "Thanks a lot, I appreciate it. Have a great day!"
+    },
+    {
+      "timestamp": "2026-06-20T19:57:25.507097+00:00",
+      "speaker": "Agent",
+      "text": "You too."
+    },
+    {
+      "timestamp": "2026-06-20T19:57:27.656826+00:00",
+      "speaker": "Patient",
+      "text": "Take care, bye now."
+    },
+    {
+      "timestamp": "2026-06-20T19:57:35.057920+00:00",
+      "speaker": "Agent",
+      "text": "Bye."
+    },
+    {
+      "timestamp": "2026-06-20T19:57:36.884274+00:00",
+      "speaker": "Patient",
+      "text": "Bye!"
+    }
+  ]
+}

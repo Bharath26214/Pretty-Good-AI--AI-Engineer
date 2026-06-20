@@ -1,0 +1,28 @@
+Scenario: 11 - Wrong Date Day Mismatch
+Call ID: v3:0CxkglX8UoNsxqNtHW1mwm0ZLww4pjkvgHLsqJJgdgcvAG8bldrGdQ
+Started: 2026-06-20T19:54:03.656537+00:00
+
+[2026-06-20T19:54:18.558879+00:00] Agent: Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Marcus?
+[2026-06-20T19:54:20.191573+00:00] Patient: Hi there, yes, this is Marcus. I'd like to schedule an appointment.
+[2026-06-20T19:54:31.794279+00:00] Agent: Please share your date of birth. Please share your date of birth.
+[2026-06-20T19:54:34.050813+00:00] Patient: Sure, it's August 22, 1990.
+[2026-06-20T19:54:44.509698+00:00] Agent: Thanks, Marcus. How can I help today?
+[2026-06-20T19:54:47.130829+00:00] Patient: I’d like to book an appointment for Tuesday, June 21st, if that’s available.
+[2026-06-20T19:54:56.842780+00:00] Agent: One moment.
+[2026-06-20T19:54:59.396916+00:00] Patient: Sure, no problem. I'll wait.
+[2026-06-20T19:55:16.744137+00:00] Agent: I'm not seeing anything open that week. We can try another date or I can look for any provider. What would you prefer?
+[2026-06-20T19:55:19.645224+00:00] Patient: Hmm, I’m pretty sure I saw Tuesday, June 21st open. Are you sure there’s nothing on that day?
+[2026-06-20T19:55:43.922940+00:00] Agent: I checked again, and I'm still not seeing any openings on that date. If you want, I could look in another day or check any provider.
+[2026-06-20T19:55:45.925857+00:00] Patient: Okay, let’s go with the next available Tuesday, maybe June 23rd. Does that work?
+[2026-06-20T19:56:03.948536+00:00] Agent: I'm not seeing anything open that Tuesday either. I can check another day or try any provider if you want.
+[2026-06-20T19:56:06.571503+00:00] Patient: All right, how about we check for any available slots on Tuesday that week, June 23rd, with any provider?
+[2026-06-20T19:56:32.697890+00:00] Agent: We have openings on Tuesday, June 23rd with any provider. The earliest one is at 9 a.m. with Dr. Zygnew Lukowski. Another option is 10 a.m. with Dr. Kelly Noble. Would you like me to book one of those?
+[2026-06-20T19:56:35.221905+00:00] Patient: Let’s go with the 9 a.m. with Dr. Zygmunt Lukosky. That works for me.
+[2026-06-20T19:57:00.249378+00:00] Agent: Your appointment is booked for Tuesday, June 23rd at 9 a.m. Please bring your government-issued photo ID and insurance card, plus a list of current medications and any imaging discs if you have them.
+[2026-06-20T19:57:02.404967+00:00] Patient: Got it, I’ll make sure to bring those. Thanks for your help!
+[2026-06-20T19:57:13.957167+00:00] Agent: You're all set. If you need anything else, just call back.
+[2026-06-20T19:57:16.385470+00:00] Patient: Thanks a lot, I appreciate it. Have a great day!
+[2026-06-20T19:57:25.507097+00:00] Agent: You too.
+[2026-06-20T19:57:27.656826+00:00] Patient: Take care, bye now.
+[2026-06-20T19:57:35.057920+00:00] Agent: Bye.
+[2026-06-20T19:57:36.884274+00:00] Patient: Bye!

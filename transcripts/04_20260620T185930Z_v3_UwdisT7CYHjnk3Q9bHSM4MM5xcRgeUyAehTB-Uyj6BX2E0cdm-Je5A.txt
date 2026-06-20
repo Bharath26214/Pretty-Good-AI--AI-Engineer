@@ -1,0 +1,23 @@
+Scenario: 04 - Medication Refill Clear
+Call ID: v3:UwdisT7CYHjnk3Q9bHSM4MM5xcRgeUyAehTB-Uyj6BX2E0cdm-Je5A
+Started: 2026-06-20T18:59:30.705272+00:00
+
+[2026-06-20T18:59:45.236319+00:00] Agent: All may be recorded for quality and training purposes. Para español, oprima el dos. Thanks for calling Pivot Point Orthopedics, part of PrettyGoodAI. Am I speaking with Marcus?
+[2026-06-20T18:59:50.437248+00:00] Patient: Yes, this is Marcus Thompson. I'm calling to request a refill for my Lisinopril 10 milligrams, taken once daily, for high blood pressure. I use the Lakeside Pharmacy on 5th Street in town. How long will the refill take, and do I need an appointment or can it be called in directly?
+[2026-06-20T19:00:11.475356+00:00] Agent: Please share your date of birth. Please share your date of birth.
+[2026-06-20T19:00:14.729227+00:00] Patient: Sure, my date of birth is August 22, 1990.
+[2026-06-20T19:00:26.720334+00:00] Agent: Let me check that for you. How can I help today?
+[2026-06-20T19:00:31.452698+00:00] Patient: I'm looking to get a refill on my Lisinopril 10 milligrams once daily. The pharmacy is Lakeside Pharmacy on 5th Street. Will I need to come in for an appointment, or can it be called in directly, and how long will it take?
+[2026-06-20T19:00:51.055565+00:00] Agent: I need one quick detail first: How many days of lisinopril do you have left?
+[2026-06-20T19:00:54.676837+00:00] Patient: I’ve got about three days left. That’s why I’m checking on how quickly we can get this refill in.
+[2026-06-20T19:01:07.909588+00:00] Agent: I have three days left. What callback number should staff use if they need to reach you?
+[2026-06-20T19:01:11.418159+00:00] Patient: You can reach me at +1 860-850-9755.
+[2026-06-20T19:01:33.075054+00:00] Agent: Let me check the refill details. Sure, what pharmacy would you like us to use for the medication request? Please share the pharmacy name and if you have it, the address, phone number, or fax number.
+[2026-06-20T19:01:36.795954+00:00] Patient: The pharmacy is Lakeside Pharmacy on 5th Street. I don't have the phone or fax number handy, but it’s the main one on 5th Street in town.
+[2026-06-20T19:01:55.630157+00:00] Agent: I need one more detail to make sure we have the right branch. What city and state is Lakeside Pharmacy in, or the zip code?
+[2026-06-20T19:01:58.580959+00:00] Patient: It’s in Riverview, Ohio, zip code 44123.
+[2026-06-20T19:02:23.300262+00:00] Agent: Your refill request has been submitted to the care team for review. It has not been sent to the pharmacy yet. If you are running out sooner or if your symptoms are changing, you can call back. Do you need any other medications refilled?
+[2026-06-20T19:02:26.776999+00:00] Patient: No, that’s the only medication I need refilled right now. Could you let me know how long it typically takes to process?
+[2026-06-20T19:02:52.061041+00:00] Agent: Your refill request for lisinopril has been sent to the care team for review. They will handle it and it is not called in directly to the pharmacy from here. You do not need an appointment for the refill request itself. If you want, I can also help with anything else today.
+[2026-06-20T19:02:54.610319+00:00] Patient: Thanks for the update. That’s all I needed for now. I appreciate your help.
+[2026-06-20T19:03:04.714189+00:00] Agent: You're welcome. Take care.

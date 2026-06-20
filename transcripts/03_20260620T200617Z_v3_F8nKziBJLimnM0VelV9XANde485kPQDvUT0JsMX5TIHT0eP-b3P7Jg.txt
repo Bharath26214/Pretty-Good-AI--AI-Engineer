@@ -1,0 +1,15 @@
+Scenario: 03 - Appointment For Minor Child
+Call ID: v3:F8nKziBJLimnM0VelV9XANde485kPQDvUT0JsMX5TIHT0eP-b3P7Jg
+Started: 2026-06-20T20:06:17.085541+00:00
+
+[2026-06-20T20:06:31.123058+00:00] Agent: Thanks for calling Pivot Point Orthopedics, part of PrettyGoodAI. Am I speaking with Marcus?
+[2026-06-20T20:06:34.362246+00:00] Patient: Hi, actually, this is Marcus Thompson calling. I'm hoping to schedule an appointment for my child.
+[2026-06-20T20:06:47.295184+00:00] Agent: Please tell me your child's full name and date of birth.
+[2026-06-20T20:06:50.557461+00:00] Patient: Sure. My child's name is Jordan Thompson, and the date of birth is September 14, 2014.
+[2026-06-20T20:07:10.853379+00:00] Agent: I have the name as Jordan Thompson and the date of birth as September 14, 2014. Could you spell the first and last name for me?
+[2026-06-20T20:07:14.476391+00:00] Patient: Absolutely. The first name is J-O-R-D-A-N, and the last name is T-H-O-M-P-S-O-N.
+[2026-06-20T20:07:33.793302+00:00] Agent: Do you want to use a phone number to look up the record, or should I confirm the name and date of birth again?
+[2026-06-20T20:07:37.647940+00:00] Patient: We can use the phone number to look up the record. The number is +1 860-850-9755.
+[2026-06-20T20:08:00.964132+00:00] Agent: I have the number as 860-850-9755 and the date of birth as September 14th, 2014. Is that correct?
+[2026-06-20T20:08:03.690865+00:00] Patient: Yes, that’s correct. That’s our phone number and the right date of birth for Jordan.
+[2026-06-20T20:08:24.668042+00:00] Agent: Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye.

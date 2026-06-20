@@ -1,0 +1,138 @@
+{
+  "scenario_id": "02",
+  "scenario_name": "Wrong Birthday",
+  "call_id": "v3:QzhWV-dS9nQAZGmpjdOa4ALwChmCrPOi8_tOUn8J6fAgNwjug6INfg",
+  "started_at": "2026-06-20T19:29:03.485018+00:00",
+  "entries": [
+    {
+      "timestamp": "2026-06-20T19:29:17.714344+00:00",
+      "speaker": "Agent",
+      "text": "may be recorded for quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Marcus?"
+    },
+    {
+      "timestamp": "2026-06-20T19:29:20.657541+00:00",
+      "speaker": "Patient",
+      "text": "Yes, this is Marcus."
+    },
+    {
+      "timestamp": "2026-06-20T19:29:29.524541+00:00",
+      "speaker": "Agent",
+      "text": "Please say your date of birth."
+    },
+    {
+      "timestamp": "2026-06-20T19:29:33.043920+00:00",
+      "speaker": "Patient",
+      "text": "Sure, it's February 29th, 1990."
+    },
+    {
+      "timestamp": "2026-06-20T19:29:53.661654+00:00",
+      "speaker": "Agent",
+      "text": "Let me check that for you. I'm having trouble with that date. Please give your date of birth as month, day, and year. I'm having trouble with that date. Please give your date of birth as month, day, and year."
+    },
+    {
+      "timestamp": "2026-06-20T19:29:56.758495+00:00",
+      "speaker": "Patient",
+      "text": "No, that's definitely my birthday. It's 02-29-1990."
+    },
+    {
+      "timestamp": "2026-06-20T19:30:16.460020+00:00",
+      "speaker": "Agent",
+      "text": "Check that again. I'm still getting a data error. Please check the year and tell me your date of birth again, month, day, and year."
+    },
+    {
+      "timestamp": "2026-06-20T19:30:19.495890+00:00",
+      "speaker": "Patient",
+      "text": "It's February 29th, 1990. That's correct."
+    },
+    {
+      "timestamp": "2026-06-20T19:30:31.684187+00:00",
+      "speaker": "Agent",
+      "text": "One moment. Something's not right."
+    },
+    {
+      "timestamp": "2026-06-20T19:30:34.372352+00:00",
+      "speaker": "Patient",
+      "text": "I understand, but that really is my birthday."
+    },
+    {
+      "timestamp": "2026-06-20T19:30:42.834443+00:00",
+      "speaker": "Agent",
+      "text": "Something's not right."
+    },
+    {
+      "timestamp": "2026-06-20T19:30:46.124936+00:00",
+      "speaker": "Patient",
+      "text": "I get it might look unusual, but it's accurate\u2014February 29th, 1990."
+    },
+    {
+      "timestamp": "2026-06-20T19:30:56.120093+00:00",
+      "speaker": "Agent",
+      "text": "Something's not right."
+    },
+    {
+      "timestamp": "2026-06-20T19:30:59.107132+00:00",
+      "speaker": "Patient",
+      "text": "I know it sounds odd, but trust me, that\u2019s my real date of birth."
+    },
+    {
+      "timestamp": "2026-06-20T19:31:07.668092+00:00",
+      "speaker": "Agent",
+      "text": "Something's not right."
+    },
+    {
+      "timestamp": "2026-06-20T19:31:10.526007+00:00",
+      "speaker": "Patient",
+      "text": "I understand your concern, but that\u2019s definitely my birthday."
+    },
+    {
+      "timestamp": "2026-06-20T19:31:19.150257+00:00",
+      "speaker": "Agent",
+      "text": "Something's not right."
+    },
+    {
+      "timestamp": "2026-06-20T19:31:22.054265+00:00",
+      "speaker": "Patient",
+      "text": "I know it\u2019s unusual, but that\u2019s truly my birthdate."
+    },
+    {
+      "timestamp": "2026-06-20T19:31:34.248049+00:00",
+      "speaker": "Agent",
+      "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you."
+    },
+    {
+      "timestamp": "2026-06-20T19:31:37.189338+00:00",
+      "speaker": "Patient",
+      "text": "Alright, that\u2019s fine. Can we go ahead and schedule the appointment for now?"
+    },
+    {
+      "timestamp": "2026-06-20T19:31:52.783080+00:00",
+      "speaker": "Agent",
+      "text": "I can't book it directly right now, but I can make sure our clinic support team follows up with you as soon as they can."
+    },
+    {
+      "timestamp": "2026-06-20T19:31:56.317467+00:00",
+      "speaker": "Patient",
+      "text": "Alright, that works for me. They can reach me at my number: +1 860-850-9755."
+    },
+    {
+      "timestamp": "2026-06-20T19:32:13.972551+00:00",
+      "speaker": "Agent",
+      "text": "I'm sorry, but I need to connect you with our clinic support team for this. Please stay on the line."
+    },
+    {
+      "timestamp": "2026-06-20T19:32:16.588705+00:00",
+      "speaker": "Patient",
+      "text": "Sure, I\u2019ll hold on. Thank you."
+    },
+    {
+      "timestamp": "2026-06-20T19:32:32.368622+00:00",
+      "speaker": "Agent",
+      "text": "Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye."
+    },
+    {
+      "timestamp": "2026-06-20T19:32:34.973808+00:00",
+      "speaker": "Patient",
+      "text": "Goodbye."
+    }
+  ]
+}

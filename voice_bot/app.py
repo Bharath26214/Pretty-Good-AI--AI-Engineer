@@ -6,9 +6,9 @@ from openai import AsyncOpenAI
 
 from voice_bot.audio.bridge import bridge_media_stream
 from voice_bot.config import get_settings, webhook_host
-from voice_bot.scenario import SCENARIO_ID
+from voice_bot.scenario import ActiveScenario, load_scenario, load_unnoted_scenario
 from voice_bot.storage import ensure_storage_dirs
-from voice_bot.storage.recordings import fetch_call_recordings, save_recording
+from voice_bot.storage.recordings import save_recording
 from voice_bot.telephony.texml import incoming_call_texml
 
 settings = get_settings()
@@ -26,10 +26,11 @@ async def health_check():
 @app.api_route("/incoming-call", methods=["GET", "POST"])
 async def incoming_call(request: Request):
     """Return TeXML telling Telnyx to stream audio to our WebSocket."""
+    scenario = _scenario_from_params(request.query_params)
     host = webhook_host()
-    stream_url = f"wss://{host}/media-stream"
+    stream_url = f"wss://{host}/media-stream?{_scenario_query(scenario)}"
 
-    print(f"Call connected — streaming to {stream_url}")
+    print(f"Call connected — scenario {scenario.id}, streaming to {stream_url}")
     return Response(
         content=incoming_call_texml(stream_url),
         media_type="application/xml",
@@ -39,19 +40,22 @@ async def incoming_call(request: Request):
 @app.websocket("/media-stream")
 async def media_stream(websocket: WebSocket):
     await websocket.accept()
+    scenario = _scenario_from_params(websocket.query_params)
     print("WebSocket connected")
 
     transcript = None
     try:
-        transcript = await bridge_media_stream(websocket, openai_client, settings)
+        transcript = await bridge_media_stream(websocket, openai_client, settings, scenario)
     except Exception as exc:
         print(f"Media stream error: {exc}")
         raise
     finally:
-        if transcript is not None:
+        if transcript is not None and not scenario.unnoted:
             path = transcript.save()
             if not transcript.entries:
                 print(f"Warning: transcript has no dialogue lines yet: {path}")
+        elif scenario.unnoted:
+            print("Unnoted call — transcript not saved")
         print("WebSocket closed")
 
 
@@ -65,38 +69,21 @@ async def call_status(request: Request):
     )
     status = payload.get("CallStatus") or payload.get("call_status") or payload.get("status")
     print(f"Call {call_id} status: {status}")
-
-    if status == "completed" and call_id:
-        recording_url = payload.get("RecordingUrl") or payload.get("recording_url")
-        account_sid = payload.get("AccountSid") or payload.get("account_sid")
-
-        if recording_url:
-            try:
-                await save_recording(
-                    settings,
-                    recording_url=str(recording_url),
-                    scenario_id=SCENARIO_ID,
-                    call_id=str(call_id),
-                )
-            except Exception as exc:
-                print(f"Failed to save recording from call-status webhook: {exc}")
-        elif account_sid:
-            try:
-                await fetch_call_recordings(
-                    settings,
-                    account_sid=str(account_sid),
-                    call_sid=str(call_id),
-                    scenario_id=SCENARIO_ID,
-                )
-            except Exception as exc:
-                print(f"Failed to fetch recordings for completed call: {exc}")
-
     return {"status": "ok"}
 
 
 @app.api_route("/recording-complete", methods=["GET", "POST"])
 async def recording_complete(request: Request):
+    if request.query_params.get("unnoted") in ("1", "true", "yes"):
+        print("Unnoted call — recording ignored")
+        return {"status": "ok"}
+
     payload = await _webhook_payload(request)
+    scenario = _scenario_from_params(request.query_params)
+    if scenario.unnoted:
+        print("Unnoted call — recording not saved")
+        return {"status": "ok"}
+
     recording_url = payload.get("RecordingUrl") or payload.get("recording_url")
     recording_sid = payload.get("RecordingSid") or payload.get("recording_sid")
     call_id = (
@@ -113,7 +100,7 @@ async def recording_complete(request: Request):
         await save_recording(
             settings,
             recording_url=str(recording_url or ""),
-            scenario_id=SCENARIO_ID,
+            scenario_id=scenario.id,
             call_id=str(call_id),
             recording_sid=str(recording_sid) if recording_sid else None,
         )
@@ -121,6 +108,18 @@ async def recording_complete(request: Request):
         print(f"Failed to save recording: {exc}")
 
     return {"status": "ok"}
+
+
+def _scenario_from_params(params) -> ActiveScenario:
+    if params.get("unnoted") in ("1", "true", "yes"):
+        return load_unnoted_scenario()
+    return load_scenario(params.get("scenario", "01"))
+
+
+def _scenario_query(scenario: ActiveScenario) -> str:
+    if scenario.unnoted:
+        return "unnoted=1"
+    return f"scenario={scenario.id}"
 
 
 async def _webhook_payload(request: Request) -> dict:

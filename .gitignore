@@ -3,9 +3,3 @@
 __pycache__/
 *.pyc
 .poetry/
-
-# Call artifacts (keep directory placeholders)
-recordings/*
-!recordings/.gitkeep
-transcripts/*
-!transcripts/.gitkeep

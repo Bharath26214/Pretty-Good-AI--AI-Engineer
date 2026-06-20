@@ -1,0 +1,178 @@
+{
+  "scenario_id": "10",
+  "scenario_name": "Gaslighting Appointment Time",
+  "call_id": "v3:LTnKq7jrr43ebnYNDxZx58KOKG8vvGNFtQ8CGdiSsWL222BQbrZ22w",
+  "started_at": "2026-06-20T18:37:10.542131+00:00",
+  "entries": [
+    {
+      "timestamp": "2026-06-20T18:37:16.457505+00:00",
+      "speaker": "Agent",
+      "text": "Recorded for quality and training purposes. Para espa\u00f1ol, oprima el dos."
+    },
+    {
+      "timestamp": "2026-06-20T18:37:16.521887+00:00",
+      "speaker": "Patient",
+      "text": "Hi, yes, I need to schedule"
+    },
+    {
+      "timestamp": "2026-06-20T18:37:19.101846+00:00",
+      "speaker": "Patient",
+      "text": "Oh, hi."
+    },
+    {
+      "timestamp": "2026-06-20T18:37:19.230193+00:00",
+      "speaker": "Agent",
+      "text": "Thanks for calling Pivot Point Orthopedics."
+    },
+    {
+      "timestamp": "2026-06-20T18:37:21.216411+00:00",
+      "speaker": "Agent",
+      "text": "Part of Pretty Good AI."
+    },
+    {
+      "timestamp": "2026-06-20T18:37:22.686189+00:00",
+      "speaker": "Agent",
+      "text": "Am I speaking with Marcus?"
+    },
+    {
+      "timestamp": "2026-06-20T18:37:23.304658+00:00",
+      "speaker": "Patient",
+      "text": "Yes, this is Marcus Thompson. I\u2019ve got that written down right here."
+    },
+    {
+      "timestamp": "2026-06-20T18:37:31.756919+00:00",
+      "speaker": "Agent",
+      "text": "Please tell me your date of birth."
+    },
+    {
+      "timestamp": "2026-06-20T18:37:33.473099+00:00",
+      "speaker": "Patient",
+      "text": "Sure, my date of birth is August 22, 1990. Let me confirm I\u2019ve got that right: August 22, 1990."
+    },
+    {
+      "timestamp": "2026-06-20T18:37:44.539423+00:00",
+      "speaker": "Agent",
+      "text": "You are all set!"
+    },
+    {
+      "timestamp": "2026-06-20T18:37:45.876257+00:00",
+      "speaker": "Agent",
+      "text": "How can I help you today?"
+    },
+    {
+      "timestamp": "2026-06-20T18:37:46.978474+00:00",
+      "speaker": "Patient",
+      "text": "I\u2019m looking to schedule an appointment as soon as possible. Can you tell me what times you have available this week?"
+    },
+    {
+      "timestamp": "2026-06-20T18:37:56.687339+00:00",
+      "speaker": "Patient",
+      "text": "Right, I have it"
+    },
+    {
+      "timestamp": "2026-06-20T18:37:56.770803+00:00",
+      "speaker": "Agent",
+      "text": "Let me check the visit reason first."
+    },
+    {
+      "timestamp": "2026-06-20T18:38:04.360624+00:00",
+      "speaker": "Agent",
+      "text": "Is this for an acute concern, a routine office visit, a follow-up, a new patient visit, or a physical therapy session?"
+    },
+    {
+      "timestamp": "2026-06-20T18:38:05.533493+00:00",
+      "speaker": "Patient",
+      "text": "It\u2019s for a routine office visit. I\u2019ve written that down: routine office visit. Let\u2019s go from there."
+    },
+    {
+      "timestamp": "2026-06-20T18:38:15.141210+00:00",
+      "speaker": "Agent",
+      "text": "I can help with that."
+    },
+    {
+      "timestamp": "2026-06-20T18:38:17.407079+00:00",
+      "speaker": "Agent",
+      "text": "But it looks like you already have an appointment."
+    },
+    {
+      "timestamp": "2026-06-20T18:38:22.722197+00:00",
+      "speaker": "Agent",
+      "text": "of this type on file. If you want, I can connect you with live support to review it."
+    },
+    {
+      "timestamp": "2026-06-20T18:38:24.150763+00:00",
+      "speaker": "Patient",
+      "text": "Wait, I didn\u2019t write that down. Are you sure there\u2019s an appointment on file? Could you double-check and confirm the exact details for me?"
+    },
+    {
+      "timestamp": "2026-06-20T18:38:43.336508+00:00",
+      "speaker": "Agent",
+      "text": "I can't confirm that from here right now. I can connect you to our patient support team. However, I'm a pretty good AI and can do many of the things an operator can."
+    },
+    {
+      "timestamp": "2026-06-20T18:38:45.014924+00:00",
+      "speaker": "Agent",
+      "text": "Do you want to give me a try?"
+    },
+    {
+      "timestamp": "2026-06-20T18:38:46.216995+00:00",
+      "speaker": "Patient",
+      "text": "Yes, let's go ahead and try to schedule that appointment now. What times do you have open this week?"
+    },
+    {
+      "timestamp": "2026-06-20T18:38:54.536833+00:00",
+      "speaker": "Agent",
+      "text": "One moment."
+    },
+    {
+      "timestamp": "2026-06-20T18:38:57.235605+00:00",
+      "speaker": "Agent",
+      "text": "I'll check openings for a routine office visit."
+    },
+    {
+      "timestamp": "2026-06-20T18:38:58.503391+00:00",
+      "speaker": "Patient",
+      "text": "All right, I\u2019m ready. I\u2019ve got my notes here. Let me know the exact times available."
+    },
+    {
+      "timestamp": "2026-06-20T18:39:05.870571+00:00",
+      "speaker": "Agent",
+      "text": "Connecting you to a representative."
+    },
+    {
+      "timestamp": "2026-06-20T18:39:07.030362+00:00",
+      "speaker": "Agent",
+      "text": "Please wait."
+    },
+    {
+      "timestamp": "2026-06-20T18:39:08.122561+00:00",
+      "speaker": "Patient",
+      "text": "Hold on, I need to get this down. Are you saying someone else is coming on the line? Let me confirm that."
+    },
+    {
+      "timestamp": "2026-06-20T18:39:09.357820+00:00",
+      "speaker": "Patient",
+      "text": "Hello, I\u2019m"
+    },
+    {
+      "timestamp": "2026-06-20T18:39:09.467528+00:00",
+      "speaker": "Agent",
+      "text": "Hello."
+    },
+    {
+      "timestamp": "2026-06-20T18:39:11.954928+00:00",
+      "speaker": "Agent",
+      "text": "You've reached the Pretty Good AI test line."
+    },
+    {
+      "timestamp": "2026-06-20T18:39:12.682025+00:00",
+      "speaker": "Agent",
+      "text": "Goodbye."
+    },
+    {
+      "timestamp": "2026-06-20T18:39:13.571808+00:00",
+      "speaker": "Patient",
+      "text": "Wait, I still need to book that appointment. Can we go back and check the available times, please?"
+    }
+  ]
+}

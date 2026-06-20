@@ -1,0 +1,88 @@
+{
+  "scenario_id": "12",
+  "scenario_name": "Cancel Appointment",
+  "call_id": "v3:QN9syOfHklBpAm7hoC_7zUt8h9DbK0rO3ylEkanbLDyFqa0xahZnkQ",
+  "started_at": "2026-06-20T18:55:17.071004+00:00",
+  "entries": [
+    {
+      "timestamp": "2026-06-20T18:55:31.175600+00:00",
+      "speaker": "Agent",
+      "text": "Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Marcus?"
+    },
+    {
+      "timestamp": "2026-06-20T18:55:33.786839+00:00",
+      "speaker": "Patient",
+      "text": "Yes, this is Marcus."
+    },
+    {
+      "timestamp": "2026-06-20T18:55:42.034659+00:00",
+      "speaker": "Agent",
+      "text": "Please tell me your date of birth."
+    },
+    {
+      "timestamp": "2026-06-20T18:55:44.740402+00:00",
+      "speaker": "Patient",
+      "text": "Sure, my date of birth is August 22, 1990."
+    },
+    {
+      "timestamp": "2026-06-20T18:55:54.514290+00:00",
+      "speaker": "Agent",
+      "text": "Let me check that for you."
+    },
+    {
+      "timestamp": "2026-06-20T18:55:58.724488+00:00",
+      "speaker": "Agent",
+      "text": "Thanks, Marcus. How can I help today?"
+    },
+    {
+      "timestamp": "2026-06-20T18:56:02.199645+00:00",
+      "speaker": "Patient",
+      "text": "I need to cancel an appointment I had scheduled. There\u2019s a conflict that came up, so I can\u2019t make it. Could you help me with that?"
+    },
+    {
+      "timestamp": "2026-06-20T18:56:29.600032+00:00",
+      "speaker": "Agent",
+      "text": "Let me check your upcoming appointments. You have three upcoming appointments on Monday, June 22nd. Which one would you like to cancel, the one with Dr. Duvy Hauser, Abraker, or Dr. Zed Bignew-Lakowski?"
+    },
+    {
+      "timestamp": "2026-06-20T18:56:31.480336+00:00",
+      "speaker": "Patient",
+      "text": "I'd like to cancel the appointment with Dr. Doogie Howser. That's the one I won't be able to make."
+    },
+    {
+      "timestamp": "2026-06-20T18:56:43.069773+00:00",
+      "speaker": "Agent",
+      "text": "Please give me a brief reason for the cancellation."
+    },
+    {
+      "timestamp": "2026-06-20T18:56:45.998186+00:00",
+      "speaker": "Patient",
+      "text": "I have a scheduling conflict that came up unexpectedly. That's the reason I need to cancel."
+    },
+    {
+      "timestamp": "2026-06-20T18:56:53.764837+00:00",
+      "speaker": "Agent",
+      "text": "Just."
+    },
+    {
+      "timestamp": "2026-06-20T18:57:09.804653+00:00",
+      "speaker": "Agent",
+      "text": "Confirm you want to cancel your Monday, June 22nd appointment with Dr. Duby Hauser. Your appointment for Monday, June 22nd with Dr. Duby Hauser has been canceled. What else can I help with?"
+    },
+    {
+      "timestamp": "2026-06-20T18:57:11.616291+00:00",
+      "speaker": "Patient",
+      "text": "Thanks for your help. That\u2019s all I needed for now. Have a great day."
+    },
+    {
+      "timestamp": "2026-06-20T18:57:20.333779+00:00",
+      "speaker": "Agent",
+      "text": "You too."
+    },
+    {
+      "timestamp": "2026-06-20T18:57:22.660551+00:00",
+      "speaker": "Patient",
+      "text": "Take care, goodbye."
+    }
+  ]
+}

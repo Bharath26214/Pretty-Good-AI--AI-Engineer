@@ -1,0 +1,93 @@
+{
+  "scenario_id": "06",
+  "scenario_name": "Going Off Topic",
+  "call_id": "v3:S6YZrVB3a4lW1gy1yyom9Og0GyXCmeJAyS4nLQMZaj8FgOn8vaouWw",
+  "started_at": "2026-06-20T18:52:08.114137+00:00",
+  "entries": [
+    {
+      "timestamp": "2026-06-20T18:52:21.473351+00:00",
+      "speaker": "Agent",
+      "text": "For quality and training purposes... Thanks for calling To The Point Orthopedics, part of Pretty Good AI. Am I speaking with Marcus?"
+    },
+    {
+      "timestamp": "2026-06-20T18:52:24.405794+00:00",
+      "speaker": "Patient",
+      "text": "Hi, yes, this is Marcus Thompson. I'm calling to schedule an appointment, please."
+    },
+    {
+      "timestamp": "2026-06-20T18:52:35.307493+00:00",
+      "speaker": "Agent",
+      "text": "Please tell me your date of birth."
+    },
+    {
+      "timestamp": "2026-06-20T18:52:38.844843+00:00",
+      "speaker": "Patient",
+      "text": "Sure, my date of birth is August 22, 1990. Hey, by the way, have you noticed how wild the weather\u2019s been lately?"
+    },
+    {
+      "timestamp": "2026-06-20T18:52:53.631386+00:00",
+      "speaker": "Agent",
+      "text": "I'm here to help with your appointment. I'll keep us on track."
+    },
+    {
+      "timestamp": "2026-06-20T18:52:56.512777+00:00",
+      "speaker": "Patient",
+      "text": "Oh, right, sorry about that. So, when would the next available appointment be?"
+    },
+    {
+      "timestamp": "2026-06-20T18:53:24.510283+00:00",
+      "speaker": "Agent",
+      "text": "I can help with that. Would this be for a routine office visit, a follow-up, an acute issue, a new patient visit, or something else? I can help with that. Would this be for a routine office visit, a follow-up, an acute issue, a new patient visit, or something else?"
+    },
+    {
+      "timestamp": "2026-06-20T18:53:27.810266+00:00",
+      "speaker": "Patient",
+      "text": "It's a follow-up visit. And you know, speaking of visits, what\u2019s a good restaurant around here that you'd recommend?"
+    },
+    {
+      "timestamp": "2026-06-20T18:53:40.485736+00:00",
+      "speaker": "Agent",
+      "text": "One moment, I'll confirm the visit type first."
+    },
+    {
+      "timestamp": "2026-06-20T18:53:51.396111+00:00",
+      "speaker": "Agent",
+      "text": "I found that you already have a follow-up appointment on file, so I can't book another one of the same type. If you want to change it, I can help connect you with the office."
+    },
+    {
+      "timestamp": "2026-06-20T18:53:54.216569+00:00",
+      "speaker": "Patient",
+      "text": "Ah, got it. Hey, quick question, are you an AI or a real person?"
+    },
+    {
+      "timestamp": "2026-06-20T18:54:06.806460+00:00",
+      "speaker": "Agent",
+      "text": "I'm the clinic's virtual assistant. I can help with scheduling and appointment questions."
+    },
+    {
+      "timestamp": "2026-06-20T18:54:09.632568+00:00",
+      "speaker": "Patient",
+      "text": "Oh, that\u2019s interesting. So, what do you think the meaning of life is?"
+    },
+    {
+      "timestamp": "2026-06-20T18:54:26.390641+00:00",
+      "speaker": "Agent",
+      "text": "I'm here to help with your appointment. If you want, I can connect you with the office for help changing the existing follow-up visit."
+    },
+    {
+      "timestamp": "2026-06-20T18:54:29.575951+00:00",
+      "speaker": "Patient",
+      "text": "You know what, let's go ahead and keep the original appointment. Thanks for your help. Bye now."
+    },
+    {
+      "timestamp": "2026-06-20T18:54:41.084845+00:00",
+      "speaker": "Agent",
+      "text": "You're all set. Take care."
+    },
+    {
+      "timestamp": "2026-06-20T18:54:43.142388+00:00",
+      "speaker": "Patient",
+      "text": "Goodbye!"
+    }
+  ]
+}

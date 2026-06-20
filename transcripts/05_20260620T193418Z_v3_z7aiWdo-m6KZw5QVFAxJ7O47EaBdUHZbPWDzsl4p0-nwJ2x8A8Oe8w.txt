@@ -1,0 +1,21 @@
+Scenario: 05 - Future Specific Appointment
+Call ID: v3:z7aiWdo-m6KZw5QVFAxJ7O47EaBdUHZbPWDzsl4p0-nwJ2x8A8Oe8w
+Started: 2026-06-20T19:34:18.713528+00:00
+
+[2026-06-20T19:34:33.409221+00:00] Agent: Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Marcus?
+[2026-06-20T19:34:35.183234+00:00] Patient: Yes, this is Marcus.
+[2026-06-20T19:34:43.828028+00:00] Agent: What is your date of birth?
+[2026-06-20T19:34:46.305220+00:00] Patient: My date of birth is August 22, 1990.
+[2026-06-20T19:34:59.723634+00:00] Agent: Let me check that for you. Thanks, Marcus. How can I help today?
+[2026-06-20T19:35:03.338339+00:00] Patient: I'd like to schedule an appointment for December 21st, 2026. Do you have any availability that day?
+[2026-06-20T19:35:22.811597+00:00] Agent: Let me check the visit reason first so I can look at the right kind of appointment. Will this be for a routine office visit, a follow-up, or something urgent?
+[2026-06-20T19:35:24.930582+00:00] Patient: It’s for a routine office visit, nothing urgent.
+[2026-06-20T19:35:43.110468+00:00] Agent: I did not find anything that week. We can try another date, or I can look for any provider. What would you prefer?
+[2026-06-20T19:35:45.181026+00:00] Patient: I really need that specific date, December 21st, 2026. Could you check all providers for any available time that day?
+[2026-06-20T19:36:15.291186+00:00] Agent: Yes, I found openings on December 21st with Dr. Zygmunt Lukowski. I have 9 a.m., 9:30 a.m., and 10:30 a.m. With Dr. Kelly Noble, I have 10 a.m., 10:30 a.m., and 11 a.m. Which one would you like?
+[2026-06-20T19:36:17.828815+00:00] Patient: Let’s go with Dr. Kelly Noble at 10 a.m. That works perfectly for me.
+[2026-06-20T19:36:47.737852+00:00] Agent: Your appointment is booked for Monday, December 21st at 10 a.m. It is a 30-minute office visit. Please bring your government-issued photo ID and insurance card. Also bring a list of current medications and any imaging discs if you have them.
+[2026-06-20T19:36:50.247248+00:00] Patient: Thank you, that sounds great. I'll be there with everything. I appreciate your help.
+[2026-06-20T19:37:02.024677+00:00] Agent: You're welcome. We'll see you then.
+[2026-06-20T19:37:04.206831+00:00] Patient: Perfect, thank you, goodbye.
+[2026-06-20T19:37:12.484906+00:00] Agent: Goodbye.

@@ -10,6 +10,16 @@ from voice_bot.storage.paths import RECORDINGS_DIR, call_artifact_stem, ensure_s
 TELNYX_API_BASE = "https://api.telnyx.com/v2"
 
 
+def _safe_call_id(call_id: str) -> str:
+    return "".join(char if char.isalnum() or char in "-_" else "_" for char in call_id)[:64]
+
+
+def recording_exists_for_call(call_id: str) -> Path | None:
+    safe_call_id = _safe_call_id(call_id)
+    matches = sorted(RECORDINGS_DIR.glob(f"*_{safe_call_id}*.mp3"))
+    return matches[0] if matches else None
+
+
 def _recording_extension(recording_url: str, content_type: str | None) -> str:
     path = urlparse(recording_url).path.lower()
     if path.endswith(".mp3"):
@@ -68,6 +78,12 @@ async def save_recording(
     if not recording_url:
         print("Recording webhook missing URL — skipping download")
         return None
+
+    lookup_id = call_id or recording_sid or "unknown"
+    existing = recording_exists_for_call(lookup_id)
+    if existing:
+        print(f"Recording already saved: {existing}")
+        return existing
 
     ensure_storage_dirs()
     stem = call_artifact_stem(

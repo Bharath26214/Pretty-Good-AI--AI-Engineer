@@ -1,0 +1,20 @@
+Scenario: 12 - Cancel Appointment
+Call ID: v3:QN9syOfHklBpAm7hoC_7zUt8h9DbK0rO3ylEkanbLDyFqa0xahZnkQ
+Started: 2026-06-20T18:55:17.071004+00:00
+
+[2026-06-20T18:55:31.175600+00:00] Agent: Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Marcus?
+[2026-06-20T18:55:33.786839+00:00] Patient: Yes, this is Marcus.
+[2026-06-20T18:55:42.034659+00:00] Agent: Please tell me your date of birth.
+[2026-06-20T18:55:44.740402+00:00] Patient: Sure, my date of birth is August 22, 1990.
+[2026-06-20T18:55:54.514290+00:00] Agent: Let me check that for you.
+[2026-06-20T18:55:58.724488+00:00] Agent: Thanks, Marcus. How can I help today?
+[2026-06-20T18:56:02.199645+00:00] Patient: I need to cancel an appointment I had scheduled. There’s a conflict that came up, so I can’t make it. Could you help me with that?
+[2026-06-20T18:56:29.600032+00:00] Agent: Let me check your upcoming appointments. You have three upcoming appointments on Monday, June 22nd. Which one would you like to cancel, the one with Dr. Duvy Hauser, Abraker, or Dr. Zed Bignew-Lakowski?
+[2026-06-20T18:56:31.480336+00:00] Patient: I'd like to cancel the appointment with Dr. Doogie Howser. That's the one I won't be able to make.
+[2026-06-20T18:56:43.069773+00:00] Agent: Please give me a brief reason for the cancellation.
+[2026-06-20T18:56:45.998186+00:00] Patient: I have a scheduling conflict that came up unexpectedly. That's the reason I need to cancel.
+[2026-06-20T18:56:53.764837+00:00] Agent: Just.
+[2026-06-20T18:57:09.804653+00:00] Agent: Confirm you want to cancel your Monday, June 22nd appointment with Dr. Duby Hauser. Your appointment for Monday, June 22nd with Dr. Duby Hauser has been canceled. What else can I help with?
+[2026-06-20T18:57:11.616291+00:00] Patient: Thanks for your help. That’s all I needed for now. Have a great day.
+[2026-06-20T18:57:20.333779+00:00] Agent: You too.
+[2026-06-20T18:57:22.660551+00:00] Patient: Take care, goodbye.

@@ -1,0 +1,20 @@
+Scenario: 08 - Impatient Abusive Patient
+Call ID: v3:wHG_HkG4LHlYo_OpiQ9R4fVCAH4yWNKFKNK4EIfRwGsowCG6TVJRMQ
+Started: 2026-06-20T19:48:54.710306+00:00
+
+[2026-06-20T19:49:08.354047+00:00] Agent: Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Marcus?
+[2026-06-20T19:49:11.259564+00:00] Patient: I have been trying to get an appointment for THREE weeks, this is absolutely ridiculous.
+[2026-06-20T19:49:22.105448+00:00] Agent: Please tell me your date of birth.
+[2026-06-20T19:49:24.628545+00:00] Patient: August 22, 1990.
+[2026-06-20T19:49:35.665898+00:00] Agent: Marcus, I'm sorry this has been frustrating. Let me help sort it out.
+[2026-06-20T19:49:38.392378+00:00] Patient: Just get me a same-day appointment, now.
+[2026-06-20T19:49:55.435516+00:00] Agent: I need to confirm the visit reason first. Is this for an acute visit for something urgent, or something else like a routine office visit?
+[2026-06-20T19:49:58.911639+00:00] Patient: It's urgent, that's why I've been calling for weeks. Just get it done.
+[2026-06-20T19:50:09.504961+00:00] Agent: We check the singe openings now.
+[2026-06-20T19:50:24.755517+00:00] Agent: I'm not seeing any openings in the next week. We can try a different date, or I can search with any provider. If this is getting worse or you feel unsafe, call 911 or go to urgent care or the ER.
+[2026-06-20T19:50:28.265171+00:00] Patient: I swear to God, this place is useless. I need a same-day appointment. Just answer the question: is there anything you can do right now?
+[2026-06-20T19:50:57.299375+00:00] Agent: Let me check one more time and widen the search. Yes, I found same-day care for Monday. The earliest opening is Monday at 8 a.m. with Dr. Z. Ignu Lukowski. I can book that, or I can check one other time if you want.
+[2026-06-20T19:51:00.820544+00:00] Patient: Monday? That's not same-day, this is a joke. Check again, today only.
+[2026-06-20T19:51:21.636504+00:00] Agent: I'm sorry, I can only book what's actually open, and I'm not seeing any appointments for today. If you want, I can keep checking for another same-day opening, or I can hand this off to the office for follow-up.
+[2026-06-20T19:51:24.674423+00:00] Patient: Unbelievable. Get me a manager or someone who can actually help, right now.
+[2026-06-20T19:51:46.395152+00:00] Agent: I'm escalating this to the office now. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye.
