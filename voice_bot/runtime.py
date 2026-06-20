@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import asyncio
 import os
 import subprocess
 import sys
@@ -48,6 +49,13 @@ def _configure_ngrok() -> None:
     ngrok.set_auth_token(token)
 
 
+def _close_listener(listener: ngrok.Listener) -> None:
+    try:
+        asyncio.run(listener.close())
+    except Exception:
+        pass
+
+
 def run_with_stack(action: Callable[[], Any], *, port: int = DEFAULT_PORT) -> Any:
     """Start uvicorn + ngrok, run action, then shut everything down."""
     _configure_ngrok()
@@ -90,7 +98,7 @@ def run_with_stack(action: Callable[[], Any], *, port: int = DEFAULT_PORT) -> An
             except subprocess.TimeoutExpired:
                 server.kill()
         if listener is not None:
-            listener.close()
+            _close_listener(listener)
         try:
             ngrok.disconnect()
         except Exception:

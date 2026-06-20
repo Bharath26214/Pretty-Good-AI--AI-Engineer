@@ -1,0 +1,88 @@
+{
+  "scenario_id": "01",
+  "scenario_name": "Simple Appointment",
+  "call_id": "v3:vwkWf8jPG8QXRfjgdGVVvwBdfE-thC8-s1OqT4qwFLm2CoBvzBrX7A",
+  "started_at": "2026-06-20T21:39:40.290328+00:00",
+  "entries": [
+    {
+      "timestamp": "2026-06-20T21:39:53.822199+00:00",
+      "speaker": "Agent",
+      "text": "Thanks for calling to the Point Orthopedics, part of Pretty Good AI. Am I speaking with Marcus?"
+    },
+    {
+      "timestamp": "2026-06-20T21:39:56.198556+00:00",
+      "speaker": "Patient",
+      "text": "Yes, this is Marcus Thompson."
+    },
+    {
+      "timestamp": "2026-06-20T21:40:04.991746+00:00",
+      "speaker": "Agent",
+      "text": "Please tell me your date of birth."
+    },
+    {
+      "timestamp": "2026-06-20T21:40:07.639860+00:00",
+      "speaker": "Patient",
+      "text": "Sure, my date of birth is August 22, 1990."
+    },
+    {
+      "timestamp": "2026-06-20T21:40:20.052465+00:00",
+      "speaker": "Agent",
+      "text": "Let me verify that now. Perfect. How can I help today?"
+    },
+    {
+      "timestamp": "2026-06-20T21:40:23.398825+00:00",
+      "speaker": "Patient",
+      "text": "I'd like to schedule a new patient appointment for a general checkup sometime next week, preferably in the morning."
+    },
+    {
+      "timestamp": "2026-06-20T21:40:37.812824+00:00",
+      "speaker": "Agent",
+      "text": "I'll note that as a new patient consultation for a general checkup."
+    },
+    {
+      "timestamp": "2026-06-20T21:40:52.902199+00:00",
+      "speaker": "Agent",
+      "text": "We have openings next Tuesday morning with Dr. Dudy Hauser at Pivot Point Orthopedics. I can offer 10:30 a.m., 11:15 a.m., or 12:45 p.m. Which one would you like?"
+    },
+    {
+      "timestamp": "2026-06-20T21:40:55.927320+00:00",
+      "speaker": "Patient",
+      "text": "I'll take the 10:30 a.m. slot, that works for me."
+    },
+    {
+      "timestamp": "2026-06-20T21:41:20.543608+00:00",
+      "speaker": "Agent",
+      "text": "You're booked for Tuesday, June 23rd, at 10:30 a.m. for a new patient visit. Please bring a government-issued photo ID or insurance card and a list of current medications. If you have any imaging discs, bring those too."
+    },
+    {
+      "timestamp": "2026-06-20T21:41:23.437879+00:00",
+      "speaker": "Patient",
+      "text": "Got it, I'll make sure to bring all of that along. Thanks for your help, I'll see you then."
+    },
+    {
+      "timestamp": "2026-06-20T21:41:38.252278+00:00",
+      "speaker": "Agent",
+      "text": "You're welcome. See you Tuesday at 10:30 a.m."
+    },
+    {
+      "timestamp": "2026-06-20T21:41:42.619273+00:00",
+      "speaker": "Patient",
+      "text": "Great, looking forward to it. Take care."
+    },
+    {
+      "timestamp": "2026-06-20T21:41:52.485926+00:00",
+      "speaker": "Agent",
+      "text": "You too."
+    },
+    {
+      "timestamp": "2026-06-20T21:41:56.436860+00:00",
+      "speaker": "Patient",
+      "text": "Bye now."
+    },
+    {
+      "timestamp": "2026-06-20T21:42:04.493186+00:00",
+      "speaker": "Agent",
+      "text": "Goodbye."
+    }
+  ]
+}
